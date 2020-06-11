@@ -8,6 +8,9 @@
   <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
+
+  {{-- @dump(Request::route()->getName()) --}}
+
     <header class="main-header">
       <nav class="navbar">
         <a href="{{ route('static-page.home')}}" class="navbar-brand">
@@ -15,8 +18,10 @@
         </a>
 
         <ul class="main-nav">
-          <li><a href="{{ route('static-page.home')}}">Home</a></li>
-          <li><a href="{{route('student.index')}}">Dopo il Corso</a></li>
+          <li><a @if(Request::route()->getName() == 'static-page.home') class = "active" @endif
+            href="{{ route('static-page.home')}}">Home</a></li>
+          <li><a @if(Request::route()->getName() == 'student.index') class = "active" @endif
+             href="{{route('student.index')}}">Dopo il Corso</a></li>
           <li><a href="#">Corso</a></li>
           <li><a href="#">Lezione gratuita</a></li>
           <li><a href="#">Assumi i nostri studenti</a></li>
