@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class StudentController extends Controller
 {
     public function index(){
-      // return view
+      return view('students.index');
     }
 
     public function show($id) {
