@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
   @include('shared/header')
 
     <main class="main-content">
@@ -6,7 +6,7 @@
     </main> <!-- main-content -->
 
   @include('shared/footer')
-=======
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,4 +28,3 @@
     </footer> <!-- main-footer -->
 </body>
 </html>
->>>>>>> master
