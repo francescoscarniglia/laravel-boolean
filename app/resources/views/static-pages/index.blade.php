@@ -4,6 +4,7 @@
 
   <div class="jumbo">
     <div class="jumbo-text">
+
       <h2>Diventa sviluppatore web</h2>
       <h4>Trasformiamo la tua passione in una carriera. Se non trovi lavoro, ti rimborsiamo.</h4>
       <p>
