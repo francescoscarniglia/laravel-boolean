@@ -27,13 +27,11 @@ p {
 .main-content {
   max-width: 1144px;
   margin: 0 auto;
-  background-color: #e8ebf1;
   padding: 0 1rem 4rem;
 }
 
 a {
   text-decoration: none;
-  text-transform: uppercase;
   color: #1b3c59;
 }
 
@@ -60,6 +58,7 @@ a {
 .navbar .main-nav a {
   font-size: 1rem;
   border-bottom: 2px solid transparent;
+  text-transform: uppercase;
   transition: border 0.4s;
 }
 
@@ -10995,5 +10994,26 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+.students {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.students .student {
+  flex-basis: 48%;
+  display: block;
+  color: #000;
+  background-color: #e8ebf1;
+  text-decoration: none;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
+}
+
+.students .student:hover {
+  transform: translateY(-7px);
 }
 
