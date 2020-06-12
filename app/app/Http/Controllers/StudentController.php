@@ -17,6 +17,24 @@ class StudentController extends Controller
     }
 
     public function show($id) {
-      // return view
+
+      $student = $this->searchStudent($id, $this->students);
+      if(!$student){
+        abort('404');
+      }
+      return view('students.show');
     }
+
+    // utilities
+
+    // check student exist by id
+    private function searchStudent($id, $array) {
+      foreach ($array as $student) {
+        if ($student['id'] == $id) {
+          return $student;
+        }
+      }
+        return false;
+    }
+
 }
