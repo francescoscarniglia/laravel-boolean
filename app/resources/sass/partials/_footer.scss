@@ -7,13 +7,11 @@
     color: $white;
   }
   .nav-footer {
-    display: flex;
+    @include center_pos;
     width: $max_width;
-    justify-content: space-between;
-    align-items: center;
     margin: $margin_auto;
     .footer-brand img {
-      width: 200px;
+      width: $img_brand;
     }
   }
 }

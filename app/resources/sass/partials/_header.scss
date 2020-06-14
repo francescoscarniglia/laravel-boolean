@@ -1,10 +1,8 @@
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include center_pos;
   height: 80px;
   .navbar-brand img{
-    width: 200px;
+    width: $img_brand;
   }//navbar-brand
   .main-nav {
     display: flex;

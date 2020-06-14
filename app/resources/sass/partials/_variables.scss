@@ -2,6 +2,9 @@
 $body-bg: #f8fafc;
 $bg-light: #e8ebf1;
 
+// brand
+$img_brand : 200px;
+
 // Typography
 $font-family-sans-serif: 'Nunito', sans-serif;
 $font-size-base: 0.9rem;
@@ -14,9 +17,15 @@ $white: #fff;
 $l-green: #61ce4e;
 
 
-// margin - size
+// margin - size - alignments
 $max_width : 1144px;
 $margin_auto : 0 auto;
+
+@mixin center_pos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 // text
 $text-center: text-center;
