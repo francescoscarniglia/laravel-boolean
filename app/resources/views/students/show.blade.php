@@ -2,9 +2,8 @@
 
 @section('main-content')
 
-<h1>Nome studente</h1>
 
-
+<h1>{{ $student['nome']}}</h1>
 
 
 @endsection

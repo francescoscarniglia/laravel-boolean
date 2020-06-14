@@ -11,18 +11,18 @@ class StudentController extends Controller
     {
       $this->students = config('students');
     }
+
     public function index(){
       $students = $this->students;
       return view('students.index', compact('students'));
     }
 
     public function show($id) {
-
       $student = $this->searchStudent($id, $this->students);
       if(!$student){
         abort('404');
       }
-      return view('students.show');
+      return view('students.show', compact ('student'));
     }
 
     // utilities
