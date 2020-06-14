@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 
 class StudentController extends Controller
 {
-    public function gender() {
-      //LOGIC HERE
+    public function gender(Request $request) {
+      // $data = $request->all();
     }
 }

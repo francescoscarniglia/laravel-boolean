@@ -18,5 +18,5 @@ use Illuminate\Http\Request;
 // });
 
 Route::namespace('Api')->group(function() {
-  Route::post('students/gender', 'StudentController@gender');  
+  Route::post('students/genders', 'StudentController@gender');  
 });
