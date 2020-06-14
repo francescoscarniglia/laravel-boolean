@@ -2,7 +2,7 @@
 
 @section('main-content')
 
-<h1>Studenti.</h1>
+<h2>I nostri ex studenti</h2>
 
 <div class="students">
   @foreach($students as $student)

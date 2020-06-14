@@ -8,6 +8,8 @@
 body {
   font-family: $font-family-sans-serif;
   font-size: $font-size-base;
+  display: flex;
+  flex-direction: column;
 }
 
 h1,
@@ -27,6 +29,7 @@ p {
   max-width: $max_width;
   margin: $margin_auto;
   padding: 0 1rem 4rem;
+  flex-grow: 1;
 }
 
 a {

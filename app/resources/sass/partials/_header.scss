@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  .navbar-brand{
-    background-color: $blue;
+  height: 80px;
+  .navbar-brand img{
+    width: 200px;
   }//navbar-brand
   .main-nav {
     display: flex;

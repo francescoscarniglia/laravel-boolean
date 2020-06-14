@@ -14,7 +14,7 @@
     <header class="main-header">
       <nav class="navbar">
         <a href="{{ route('static-page.home')}}" class="navbar-brand">
-          Boolean
+          <img src="https://www.boolean.careers/images/common/logo.png" alt="Boolean Logo">
         </a>
 
         <ul class="main-nav">
