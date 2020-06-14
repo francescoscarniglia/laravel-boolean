@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   .navbar-brand{
-    background-color: $orange;
+    background-color: $blue;
   }//navbar-brand
   .main-nav {
     display: flex;
@@ -20,7 +20,7 @@
       &.active,
       &:hover {
         text-decoration: none;
-        border-bottom: 2px solid $green;
+        border-bottom: 2px solid $blue;
       } // hover
     }//a
   }//main-nav

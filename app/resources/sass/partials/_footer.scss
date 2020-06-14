@@ -1,0 +1,15 @@
+.main-footer {
+  display: flex;
+  background-color: $blue;
+  color: $white;
+  a {
+    color: $white;
+  }
+  .nav-footer {
+    display: flex;
+    width: $max_width;
+    justify-content: space-between;
+    align-items: center;
+    margin: $margin_auto;
+  }
+}
