@@ -1,5 +1,6 @@
 <?php
-return [
+return  [
+  'students'=> [
   [
     'id' => 1,
     'img' => 'https://www.boolean.careers/images/students/biagini.png',
@@ -44,4 +45,9 @@ return [
     'ruolo' => 'web developer',
     'descrizione' => 'Per supportare la famiglia, Simone inizia a lavorare come operaio da giovanissimo. Fortemente motivato a cambiare vita, per 6 mesi non stacca mai lo sguardo dal traguardo, distinguendosi per tenacia e resilienza.'
   ],
+  'genders'=>  [
+    'all',
+    'm',
+    'f']
+  ]
 ];

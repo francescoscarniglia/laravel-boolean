@@ -13,5 +13,15 @@
     .footer-brand img {
       width: $img_brand;
     }
+    ul {
+      list-style: none;
+      text-align: right;
+     a {
+        font-size: $font-size-big;
+     }
+     &:hover {
+       color:red;
+     }
+    }
   }
 }

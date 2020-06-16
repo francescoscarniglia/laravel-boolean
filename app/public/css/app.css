@@ -11,6 +11,7 @@ body {
   font-size: 0.9rem;
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 h1,
@@ -93,6 +94,19 @@ a {
 
 .main-footer .nav-footer .footer-brand img {
   width: 200px;
+}
+
+.main-footer .nav-footer ul {
+  list-style: none;
+  text-align: right;
+}
+
+.main-footer .nav-footer ul a {
+  font-size: 1.3rem;
+}
+
+.main-footer .nav-footer ul:hover {
+  color: red;
 }
 
 /*!
