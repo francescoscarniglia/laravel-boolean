@@ -15,9 +15,11 @@ class StudentController extends Controller
     }
 
     public function index(){
-      $students = $this->students;
-      $students = $this->genders;
-      return view('students.index', compact('students', 'genders'));
+      $data = [
+        'students' => $this->students,
+        'genders' => $this->genders
+      ];
+      return view('students.index', $data);
     }
 
     public function show($slug) {
